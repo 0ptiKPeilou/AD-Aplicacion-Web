@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-top: 0;
+    color: #333333;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.formulario label {
+    font-weight: bold;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"],
+.formulario input[type="date"],
+.formulario input[type="file"],
+.formulario textarea {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button, .boton {
+    background-color: #0d6efd;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+button:hover, .boton:hover {
+    background-color: #0b5ed7;
+}
+
+.boton-secundario {
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+.boton-secundario:hover {
+    background-color: #5c636a;
+}
+
+.mensaje.error {
+    color: #b02a37;
+}
+
+.acciones {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.barra-superior {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #343a40;
+    padding: 10px;
+}
+
+.barra-superior .boton-secundario {
+    background-color: #dc3545;
+}
+
+.table, table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.form-inline {
+    display: inline;
+}
